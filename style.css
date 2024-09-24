@@ -1,0 +1,105 @@
+*{
+ margin:0 ; 
+ padding: 0;  
+}
+.body{
+    font-family: Arial;
+    text-align: center;
+}
+.wrapper{
+    width: 90%;
+    margin: 0 auto;
+}
+header{
+width: 100%;
+height:100px;
+background: red;
+position:sticky;
+}
+.logo{
+    width:30% ;
+    float: left;
+    text-align: left;
+    font-family:Impact;
+    line-height: 100px;
+    
+}
+.logo a{
+    color: white;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 30px;
+}
+.nav{
+    float: right;
+    line-height: 100px;
+}
+nav a{
+    text-decoration: none;
+    font-family: Tahoma;
+    letter-spacing: 4px;
+    font-size: 20px;
+    color: white;
+    padding: 30px 10px;
+    margin: 0 1px;
+    width: 10%;
+    
+}
+
+.banner-area{
+    background-image: url(moon\ image.jpeg);
+    background-size: cover;
+    background-position: center center;
+    top: 100px;
+    height: 100vh;
+    position: fixed;
+    width: 100%;
+    
+}
+
+.banner-area:after{
+    content: "" ;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background:white;
+    opacity: -7;
+    z-index: -1;
+}
+.banner-area h2{
+    padding-top: 15%;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
+.content-area{
+    width: 100%;
+    height: 600px;
+    position: relative;
+    background: #fff;
+    top: 550px;
+}
+.content-area h2{
+    font-size: 40px;
+    margin: 0;
+    padding-top: 30px;
+    letter-spacing: 4px;
+}
+.content-area p{
+padding: 2% o;
+line-height: 30px;
+text-align: justify;
+}
+.banner-area span{
+    color:red;
+    font-size: small;
+    font-family: Courier;
+    letter-spacing: 3px;
+    margin: 2%;
+    line-height: 0px;
+    line-height: 1.5; /* Adjusts the line height */
+    }
+   
